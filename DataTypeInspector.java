@@ -10,8 +10,8 @@ public class DataTypeInspector
     public static void main(String[] args){
         byte byteVar = 100;          
         short shortVar = 32000;      
-        int intVar = 100000;        
-        long longVar = 1000000000L;  
+        int intVar = 10000;        
+        long longVar = 100000000L;  
 
         float floatVar = 3.14f;    
         double doubleVar = 3.14159265359;  
