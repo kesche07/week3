@@ -46,7 +46,7 @@ public class MathOperations
         System.out.println("\n Enter second number");
         int num5= sc.nextInt();
         String isValid= (num4==num5)? "The numbers are same" : "The numbers are different";     
-       
+        System.out.println(isValid);       
         
     }
 }
