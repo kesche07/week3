@@ -19,9 +19,9 @@ public class RichshawFare
         System.out.println("\tIs it night time? Y/N");
         String timing=sc.nextLine();
         
-        System.out.println("\n\tEnter the distance needed to travel");
+        System.out.println("\n\tEnter the distance needed to travel(KM)");
         double distance=sc.nextDouble();
-        System.out.println("\n\tEnter the time taken to travel");
+        System.out.println("\n\tEnter the time taken to travel(Rs)");
         int time=sc.nextInt();
         
         double fare=base+(perkm*distance)+(permin*time);
@@ -32,7 +32,7 @@ public class RichshawFare
         double nightsurcharge=(timing.equals("Y") || timing.equals("y"))? fare*night : 0 ;
             fare= fare+nightsurcharge;
         
-        System.out.println("\n\t\tYour total fare is :"+fare);
+        System.out.println("\n\t\tYour total fare is :Rs."+fare);
         
         
     }
